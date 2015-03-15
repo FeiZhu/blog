@@ -1,7 +1,7 @@
-----
--layout: post
--title: What's this blog for?
-----
+---
+layout: post
+title: What's this blog for?
+---
 
 I tried to blog before, never made it for long. I guess the reason is that I wasn't so clear what I was blogging for. Record my daily work, share my thoughts, or something else? Anyway, I'm setting up another blog here on github and start fresh. The intent of setting up this blog is to push forward my work. I read somewhere online that using a blog to record the progress of what you're doing can help get the work done. Since I always have multiple tasks to do at the same time, I decide to use this blog as a log of what I'm doing.
 
