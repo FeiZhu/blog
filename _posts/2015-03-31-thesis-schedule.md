@@ -8,6 +8,7 @@ The pre-defense is around the corner. I have to start writing my thesis, right n
 I need a plan.
 
 My thesis is entitled as "Fast and Controllable Simulation of Complex Deformable Materials". The expected structure of the thesis is as follows:
+
 1. Introduction
 2. Fundamentals
 3. Numerical Coarsening of Nonlinear Inhomogeneous Materials
