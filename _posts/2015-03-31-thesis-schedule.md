@@ -1,7 +1,7 @@
-----
--layout: post
--title: What's this blog for?
-----
+---
+layout: post
+title: Thesis Schedule
+---
 
 The pre-defense is around the corner. I have to start writing my thesis, right now.
 
