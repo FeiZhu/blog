@@ -9,7 +9,7 @@ For comparison reasons, I need to implement the SIGGRAPH2009 paper [Numerical Co
 $$
 \begin{cases}
 \textrm{div}(\mathbf{C}:\epsilon(\mathbf{h}_{\alpha\beta}))=0 \quad  &\textrm{inside}\  \Omega \\
-(\mathbf{C}:\epsilon(\mathbf{h}_{\alpha\beta}))\cdot\mathbf{n}=\epsilon(x_{\alpha}\mathbf{e}_{\beta})\cdot\mathbf{n} \quad    &\textrm{for} \ \mathbf{x} \in \partial \Omega
+(\mathbf{C}:\epsilon(\mathbf{h}\_{\alpha\beta}))\cdot\mathbf{n}=\epsilon(x\_{\alpha}\mathbf{e}_{\beta})\cdot\mathbf{n} \quad    &\textrm{for} \ \mathbf{x} \in \partial \Omega
 \end{cases}
 $$
 
@@ -24,13 +24,13 @@ $$
 \int_{\Omega}\sigma_{ij,j}\delta\mathbf{u}_id\Omega = 0
 $$
 
-From tensor calculus we know that $\sigma_{ij}\delta\mathbf{u}_j = \sigma_{ij}\delta\mathbf{u}_{i,j}+\sigma_{ij,j}\delta\mathbf{u}_i $. Substitute into the equation and apply the [divergence theorem](http://en.wikipedia.org/wiki/Divergence_theorem), we get:
+From tensor calculus we know that $\sigma\_{ij}\delta\mathbf{u}\_j = \sigma\_{ij}\delta\mathbf{u}\_{i,j}+\sigma\_{ij,j}\delta\mathbf{u}\_i $. Substitute into the equation and apply the [divergence theorem](http://en.wikipedia.org/wiki/Divergence_theorem), we get:
 
 $$
 \int_\Omega\sigma_{ij,j}\delta\mathbf{u}_id\Omega=-\int_\Omega\sigma_{ij}\delta\mathbf{u}_{i,j}d\Omega +\int_S\sigma_{ij}\mathbf{n}_j\delta\mathbf{u}_idS
 $$
 
-The stress tensor is symmetric $\sigma_{ij}=\sigma_{ji}$, hence:
+The stress tensor is symmetric $\sigma\_{ij}=\sigma\_{ji}$, hence:
 
 $$
 \int_\Omega\sigma_{ij,j}\delta\mathbf{u}_id\Omega=-\int_\Omega\sigma_{ij}\frac{1}{2}(\delta\mathbf{u}_{i,j}+\delta\mathbf{u}_{j,i})d\Omega +\int_S\sigma_{ij}\mathbf{n}_j\delta\mathbf{u}_idS
