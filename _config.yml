@@ -14,4 +14,4 @@ author:
   email:
 
 # For MathJax          
-markdown: kramdown
+markdown: redcarpet
