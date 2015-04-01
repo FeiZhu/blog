@@ -8,9 +8,6 @@ For comparison reasons, I need to implement the SIGGRAPH2009 paper [Numerical Co
 `
 $$
 f(z) =
-\begin{array}
-div(\mathbf{C}:\epsilon(h_{\alpha\beta})=0 \quad & inside \Omega \\
-(\mathbf{C}:\epsilon(h_{\alpha\beta}) \dot \mathbf{n} = \epsilon (x_{\alpha}\mathbf{e}_{\beta})\dot \mathbf{n} \quad & for \mathbf{x} \in \partial \Omega
-\end{array}
+div(\mathbf{C}:\epsilon(h_{\alpha\beta})=0 \quad & inside \Omega 
 $$
 `
