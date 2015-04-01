@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            Fei's Blog
-tagline:       a personal log   
+tagline:          a personal log   
 url:              http://feizhu.github.io/blog/
 paginate:         1
 baseurl:          /blog
@@ -14,4 +14,6 @@ author:
   email:
 
 # For MathJax          
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
