@@ -7,10 +7,10 @@ For comparison reasons, I need to implement the SIGGRAPH2009 paper [Numerical Co
 
 $$
 f(z) =
-\left\{ 
-\begin{array}{rcl}
-\overline{\overline{z^2}+\cos z} & \mbox{for}
-& |z|<3 \\ 0 & \mbox{for} & 3\leq|z|\leq5 \\
-\sin\overline{z} & \mbox{for} & |z|>5
-\end{array}\right.
+\left
+\begin{array}
+div(\mathbf{C}:\epsilon(h_{\alpha\beta})=0 \quad & inside \Omega \\
+(\mathbf{C}:\epsilon(h_{\alpha\beta}) \dot \mathbf{n} = \epsilon (x_{\alpha}\mathbf{e}_{\beta})\dot \mathbf{n} \quad & for \mathbf{x} \in \partial \Omega
+\end{array}
+\right
 $$
