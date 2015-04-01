@@ -36,7 +36,7 @@ $$
 \int_\Omega\sigma_{ij,j}\delta\mathbf{u}_id\Omega=-\int_\Omega\sigma_{ij}\frac{1}{2}(\delta\mathbf{u}_{i,j}+\delta\mathbf{u}_{j,i})d\Omega +\int_S\sigma_{ij}\mathbf{n}_j\delta\mathbf{u}_idS
 $$
 
-where $ \frac{1}{2}(\delta\mathbf{u}\_{i,j}+\delta\mathbf{u}\_{j,i}) $ is the variational form of the Cauchy strain tensor $\epsilon = \frac{1}{2}(\mathbf{u}\_{i,j}+\mathbf{u}\_{j,i})$. Now the equation is formulated as:
+where $\frac{1}{2}(\delta\mathbf{u}\_{i,j}+\delta\mathbf{u}\_{j,i})$ is the variational form of the Cauchy strain tensor $\epsilon = \frac{1}{2}(\mathbf{u}\_{i,j}+\mathbf{u}\_{j,i})$. Now the equation is formulated as:
 
 $$
 \int_\Omega\sigma_{ij}\delta\epsilon_{ij}d\Omega -\int_S\sigma_{ij}\mathbf{n}_j\delta\mathbf{u}_idS=0
