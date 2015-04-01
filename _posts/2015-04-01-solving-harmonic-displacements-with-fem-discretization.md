@@ -7,6 +7,6 @@ For comparison reasons, I need to implement the SIGGRAPH2009 paper [Numerical Co
 
 `
 $$
-f(z) = div(\mathbf{C}:\epsilon(h_{\alpha\beta})=0 \quad & inside \Omega 
+f(z) = div(\mathbf{C}:\epsilon(h_{\alpha\beta})=0 
 $$
 `
