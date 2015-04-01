@@ -8,7 +8,7 @@ For comparison reasons, I need to implement the SIGGRAPH2009 paper [Numerical Co
 $$
 \begin{cases}
 \textrm{div}(\mathbf{C}:\epsilon(\mathbf{h}_{\alpha\beta}))=0 \quad  &\textrm{inside}\  \Omega \\
-(\mathbf{C}:\epsilon(\mathbf{h}\_{\alpha\beta}))\cdot\mathbf{n}=\epsilon(x\_{\alpha}\mathbf{e}_{\beta})\cdot\mathbf{n} \quad    &\textrm{for} \ \mathbf{x} \in \partial \Omega
+(\mathbf{C}:\epsilon(\mathbf{h}_{\alpha\beta}))\cdot\mathbf{n}=\epsilon(x_{\alpha}\mathbf{e}_{\beta})\cdot\mathbf{n} \quad    &\textrm{for} \ \mathbf{x} \in \partial \Omega
 \end{cases}
 $$
 
