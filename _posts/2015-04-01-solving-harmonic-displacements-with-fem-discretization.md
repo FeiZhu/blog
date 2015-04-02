@@ -22,7 +22,7 @@ $$
 \int_{\Omega}\sigma_{ij,j}\delta\mathbf{u}_id\Omega = 0
 $$
 
-From tensor calculus we know that $\nabla\_i(\sigma\_{ij}\delta\mathbf{u}\_j) = \sigma\_{ij}\delta\mathbf{u}\_{i,j}+\sigma\_{ij,j}\delta\mathbf{u}\_i $. Substitute into the equation and apply the [divergence theorem](http://en.wikipedia.org/wiki/Divergence_theorem), we get:
+From tensor calculus we know that $\nabla\_i(\sigma\_{ij}\delta\mathbf{u}\_j)\_i = \sigma\_{ij}\delta\mathbf{u}\_{i,j}+\sigma\_{ij,j}\delta\mathbf{u}\_i $. Substitute into the equation and apply the [divergence theorem](http://en.wikipedia.org/wiki/Divergence_theorem), we get:
 
 $$
 \int_\Omega\sigma_{ij,j}\delta\mathbf{u}_id\Omega=-\int_\Omega\sigma_{ij}\delta\mathbf{u}_{i,j}d\Omega +\int_S\sigma_{ij}\mathbf{n}_j\delta\mathbf{u}_idS
