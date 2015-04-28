@@ -171,4 +171,6 @@ To summarize, we briefly describe the procedures for implementation. First form 
 3.  compute the traction $ \mathbf{t}=\epsilon(x\_\alpha\mathbf{e}\_\beta)\cdot\mathbf{n} $
 4.  compute the forces at vertices as $ [\mathbf{f}]=\int\_S[\mathbf{N}]^T[\mathbf{t}]dS $
 
+It's worth noting that the global stiffness matrix constructed above is singlular as it contains rigid motion degrees of freedom. For 3D problems, we need to remove six degrees of freedom before solving for $ [\mathbf{Q}] $. It's pretty simple: choose three non-colinear vertices (e.g. three vertices of a mesh element), fix the three degrees of freedom of the first vertex, fix the first two degrees of freedom of the second vertex, and fix the last degrees of freedom of the third vertex. Removing corresponding lines and columns from the equation, and the resulting system has unique solution.
+
 After solving $ [\mathbf{K}][\mathbf{Q}] =[\mathbf{F}] $ with boudnary condition $\mathbf{t}\_{\alpha\beta}$, we get harmonic displacement $\mathbf{h}\_{\alpha\beta}$. 6 boundary conditions lead to a set of 6 displacements.
