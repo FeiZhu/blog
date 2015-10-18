@@ -19,7 +19,7 @@ Now we take a step further to the deformation energy and internal force:
 
 $$
 \begin{array}{l}
-\quad \mathbf{f}(\mathbf{q}) = -\int_\Omega\nabla_{\mathbf{q}}\Psi(X,\mathbf{q})d\Omega_X = \int_\mathbf{\Omega}\mathbf{g}(X,\mathbf{q})d\Omega_X
+\qquad \mathbf{f}(\mathbf{q}) = -\int_\Omega\nabla_{\mathbf{q}}\Psi(X,\mathbf{q})d\Omega_X = \int_\mathbf{\Omega}\mathbf{g}(X,\mathbf{q})d\Omega_X
 \end{array}
 $$.
 
@@ -40,7 +40,7 @@ $$
 \mathbf{g}_\mathrm{i}(X,\mathbf{q}) = -\sum_{\mathbf{v}\in \mathbf{V}_e}\mathbf{U}_{\mathbf{v},\mathrm{i}}\frac{\partial\Psi}{\partial\mathbf{x}_\mathbf{v}},
 $$
 
-where $ \mathbf{v}\in \mathbf{V} _{e} $
+where $\mathbf{v} \in \mathbf{V} _{e}$
 represents the vertices of the tetrahedral element $e$ that the material point $X$ lies in. To be more specific:
 
 $$\mathbf{U}_{\mathbf{v},\mathrm{i}}\frac{\partial\Psi}{\partial\mathbf{x}_\mathbf{v}} = \sum_{a\in\{x,y,z\}}\mathbf{U}_{\mathbf{v}^a,\mathrm{i}}\frac{\partial\Psi}{\partial\mathbf{x}_{\mathbf{v}^a}}$$
