@@ -15,7 +15,7 @@ Now we take a step further to the deformation energy and internal force:
 
 * $\Psi(X,\mathbf{q})$ : the deformation energy density evaluated at material point $X\in \mathbb{R}^{3}$ with deformation represented in subspace $\mathbf{q}$ . For tetrahedral constant strain finite element,  $\Psi(X,\mathbf{q})$ is constant within the element.
 *  $W(\mathbf{q})$: the deformation energy evaluated with subspace deformation $\mathbf{q}$: $W(\mathbf{q}) = \int_\Omega\Psi(X,\mathbf{q})d\Omega_X$.
-* $\mathbf{f}(\mathbf{q})$: the internal force evaluated with subspace deformation $\mathbf{q}$:  $\mathbf{f}(\mathbf{q}) = -\int_\Omega\nabla_{\mathbf{q}}\Psi(X,\mathbf{q})d\Omega_X = \int_\mathbf{\Omega}\mathbf{g}(X,\mathbf{q})d\Omega_X$.
+* $\mathbf{f}(\mathbf{q})$: the internal force evaluated with subspace deformation $\mathbf{q}$: $\mathbf{f}(\mathbf{q}) = -\int_\Omega\nabla_{\mathbf{q}}\Psi(X,\mathbf{q})d\Omega_X = \int_\mathbf{\Omega}\mathbf{g}(X,\mathbf{q})d\Omega_X$.
 
 The reduced force density $\mathbf{g}(X,\mathbf{q})$ is the negative gradient of deformation energy density $\Psi(X,\mathbf{q})$ with respect to subspace deformation $ \mathbf{q}$ evaluated at material point $X$:
 
@@ -33,6 +33,7 @@ In fact we do not need to explicitly assemble $\frac{\partial\Psi(X,\mathbf{q})}
 $$
 \mathbf{g}_\mathrm{i}(X,\mathbf{q}) = -\sum_{\mathbf{v}\in \mathbf{V}_e}\mathbf{U}_{\mathbf{v},\mathrm{i}}\frac{\partial\Psi}{\partial\mathbf{x}_\mathbf{v}},
 $$
+
 where $\mathbf{v}\in \mathbf{V}_e$ represents the vertices of the tetrahedral element $e$ that the material point $X$ lies in. To be more specific, $\mathbf{U}_{\mathbf{v},\mathrm{i}}\frac{\partial\Psi}{\partial\mathbf{x}_\mathbf{v}} = \sum_{a\in\{x,y,z\}}\mathbf{U}_{\mathbf{v}^a,\mathrm{i}}\frac{\partial\Psi}{\partial\mathbf{x}_{\mathbf{v}^a}}$ and $a\in\{x,y,z\}$ is the three coordinate directions in Eulerian space.
 
 As we've had the representation of reduced force density, it's trivial to express reduced internal force with Cubica approximation:
