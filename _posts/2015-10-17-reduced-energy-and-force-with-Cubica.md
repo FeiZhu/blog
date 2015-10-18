@@ -18,7 +18,9 @@ Now we take a step further to the deformation energy and internal force:
 * $\mathbf{f}(\mathbf{q})$: the internal force evaluated with subspace deformation $\mathbf{q}$: 
 
 $$
-\quad \mathbf{f}(\mathbf{q}) = -\int_\Omega\nabla_{\mathbf{q}}\Psi(X,\mathbf{q})d\Omega_X = \int_\mathbf{\Omega}\mathbf{g}(X,\mathbf{q})d\Omega_X 
+\begin{array}{l}
+\quad \mathbf{f}(\mathbf{q}) = -\int_\Omega\nabla_{\mathbf{q}}\Psi(X,\mathbf{q})d\Omega_X = \int_\mathbf{\Omega}\mathbf{g}(X,\mathbf{q})d\Omega_X
+\end{array}
 $$.
 
 The reduced force density $\mathbf{g}(X,\mathbf{q})$ is the negative gradient of deformation energy density $\Psi(X,\mathbf{q})$ with respect to subspace deformation $ \mathbf{q}$ evaluated at material point $X$:
@@ -39,7 +41,11 @@ $$
 $$
 
 where $ \mathbf{v}\in \mathbf{V} _{e} $
-represents the vertices of the tetrahedral element $e$ that the material point $X$ lies in. To be more specific, $\mathbf{U}_{\mathbf{v},\mathrm{i}}\frac{\partial\Psi}{\partial\mathbf{x}_\mathbf{v}} = \sum_{a\in\{x,y,z\}}\mathbf{U}_{\mathbf{v}^a,\mathrm{i}}\frac{\partial\Psi}{\partial\mathbf{x}_{\mathbf{v}^a}}$ and $a\in\{x,y,z\}$ is the three coordinate directions in Eulerian space.
+represents the vertices of the tetrahedral element $e$ that the material point $X$ lies in. To be more specific:
+
+$$\mathbf{U}_{\mathbf{v},\mathrm{i}}\frac{\partial\Psi}{\partial\mathbf{x}_\mathbf{v}} = \sum_{a\in\{x,y,z\}}\mathbf{U}_{\mathbf{v}^a,\mathrm{i}}\frac{\partial\Psi}{\partial\mathbf{x}_{\mathbf{v}^a}}$$
+
+and $a\in\{x,y,z\}$ is the three coordinate directions in Eulerian space.
 
 As we've had the representation of reduced force density, it's trivial to express reduced internal force with Cubica approximation:
 
