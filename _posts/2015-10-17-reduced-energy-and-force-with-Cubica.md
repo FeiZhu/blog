@@ -32,7 +32,7 @@ $$
 \end{array}
 $$
 
-Entries of $\frac{\partial\Psi(X,\mathbf{q})}{\partial\mathbf{x}}$ vanish except those corresponding to vertices of the tetrahedral element that the material point $X$ lies in. Denote the element as $e$, from the [course note (P.29)](http://run.usc.edu/femdefo/barbic-courseNotes-modelReduction.pdf) we know that $[\frac{\partial \Psi}{\partial x_e^1}\  \frac{\partial \Psi}{\partial x_e^2}\  \frac{\partial \Psi}{\partial x_e^3}] = \mathbf{P}\mathbf{D}_m^{-T}$ and $  \frac{\partial \Psi}{\partial x_e^4} = -\frac{\partial \Psi}{\partial x_e^1}-\frac{\partial \Psi}{\partial x_e^2}-\frac{\partial \Psi}{\partial x_e^3}$.
+Entries of $\frac{\partial\Psi(X,\mathbf{q})}{\partial\mathbf{x}}$ vanish except those corresponding to vertices of the tetrahedral element that the material point $X$ lies in. Denote the element as $e$, from the [course note (P.29)](http://run.usc.edu/femdefo/sifakis-courseNotes-TheoryAndDiscretization.pdf) we know that $[\frac{\partial \Psi}{\partial x_e^1}\  \frac{\partial \Psi}{\partial x_e^2}\  \frac{\partial \Psi}{\partial x_e^3}] = \mathbf{P}\mathbf{D}_m^{-T}$ and $  \frac{\partial \Psi}{\partial x_e^4} = -\frac{\partial \Psi}{\partial x_e^1}-\frac{\partial \Psi}{\partial x_e^2}-\frac{\partial \Psi}{\partial x_e^3}$.
 
 In fact we do not need to explicitly assemble $\frac{\partial\Psi(X,\mathbf{q})}{\partial\mathbf{x}}$ to compute $\mathbf{g}(X,\mathbf{q}) $, the entries of $\mathbf{g}$ are computed as below:
 
