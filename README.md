@@ -1,2 +1,2 @@
-# blog
-my blog
+# notes
+my public research notes
