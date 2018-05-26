@@ -3,11 +3,11 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Fei's Blog
+title:            Fei's Notes
 tagline:          a personal log   
-url:              http://feizhu.github.io/blog/
+url:              http://feizhu.github.io/notes/
 paginate:         1
-baseurl:          /blog
+baseurl:          /notes
 author:
   name:           Fei Zhu
   url:            http://feizhu.github.io/
